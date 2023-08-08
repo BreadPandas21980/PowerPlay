@@ -106,10 +106,6 @@ public class ActualTeleOpBackup extends LinearOpMode {
 
                     clawopen = false;
                 }
-                //else{
-                //  claw.setPower(0);
-
-                //}
 
                 if (arms > 0.2) {
                     arm_left.setPower(1);
